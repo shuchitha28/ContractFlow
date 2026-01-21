@@ -3,6 +3,9 @@
 
 ## 📌 Project Description
 ContractFlow is a frontend-based Contract Management Platform built to demonstrate product thinking, UI/UX design, structured state management, and clean frontend architecture. The application enables users to create reusable contract blueprints, generate contracts, and manage their lifecycle without relying on a backend service.
+## Live Demo
+
+Check out the live version of this project here: [React App Live](https://contract-flow-phi.vercel.app)
 
 ---
 
@@ -78,24 +81,24 @@ npm run dev
 
 **Prerequisites:**  Node.js
 ```
-###Architecture & Design Decisions
+##Architecture & Design Decisions
 
-Modular, component-based structure for scalability
+-Modular, component-based structure for scalability
 
-Centralized state management for contracts and blueprints
+-Centralized state management for contracts and blueprints
 
-Clear separation of UI components and business logic
+-Clear separation of UI components and business logic
 
-Lifecycle logic enforced through controlled state transitions
+-Lifecycle logic enforced through controlled state transitions
 
-No backend dependency to keep focus on frontend architecture
+-No backend dependency to keep focus on frontend architecture
 
-###⚠️ Assumptions & Limitations
+##⚠️ Assumptions & Limitations
 
-Backend and authentication are not implemented
+-Backend and authentication are not implemented
 
-Data is stored locally or mocked
+-Data is stored locally or mocked
 
-Field positioning is basic (no advanced drag-and-drop)
+-Field positioning is basic (no advanced drag-and-drop)
 
-Signature field is a placeholder without real signing logic
+-Signature field is a placeholder without real signing logic
